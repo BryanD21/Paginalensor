@@ -1,3 +1,5 @@
+
+
 /* entrada suabe de la pagina */
 * {
   margin: 0;
@@ -53,6 +55,7 @@ header.active {
   display: none;
   flex-direction: column;
   cursor: pointer;
+  color: white
 }
 
 .bar {
@@ -373,4 +376,3 @@ nav a:hover {
     }
   }
   
-
