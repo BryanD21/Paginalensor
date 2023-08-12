@@ -188,9 +188,32 @@ header {
     font-size: 18px;
     margin-bottom: 30px;
     line-height: 1.6;
-  }
-  /* ... (código CSS existente) ... */
-  
+  } 
+
+/* Estilo de la sección de Realizar Cotización */
+.cotizacion {
+  background-color: #f4f4f4;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.cotizacion .container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.cotizacion h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #0e284d;
+}
+
+.cotizacion p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
   
   footer {
     background-color: #0e284d;
