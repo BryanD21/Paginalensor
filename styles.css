@@ -221,7 +221,7 @@ header {
   
     nav ul {
       flex-direction: column;
-      text-align: center;
+      align-items: flex-start;
     }
   
     nav li {
@@ -229,3 +229,255 @@ header {
     }
   }
   
+
+
+  /* Reset de estilos */
+/* ... (código CSS existente) ... */
+
+/* Estilo del encabezado y navegación */
+header {
+  background-color: #0e284d;
+  color: white;
+  padding: 20px 0;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  width: 150px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #bbb75b;
+}
+
+/* Estilo del hero */
+.hero {
+  background-image: url('Mi-proyecto-D.jpeg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 8px 20px;
+  background-color: #0e284d;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  transition: background-color 0.3s;
+  font-size: 16px;
+}
+
+.btn:hover {
+  background-color: #bbb75b;
+}
+
+/* Estilo de la sección de Servicios */
+.servicios {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.servicio {
+  margin-bottom: 30px;
+}
+
+.servicio img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.servicio h3 {
+  font-size: 24px;
+  margin: 15px 0;
+  color: #0e284d;
+}
+
+.servicio p {
+  font-size: 14px;
+}
+
+/* Estilo de la sección de Misión y Visión */
+.mision-vision {
+  background-color: #0e284d;
+  padding: 80px 0;
+  text-align: center;
+  color: white;
+}
+
+.mision-vision .container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.mision h3, .vision h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #bbb75b;
+}
+
+.mision p, .vision p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+/* Estilo de la sección de Valores */
+.valores {
+  background-color: #bbb75b;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.valores .container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.valores h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #0e284d;
+}
+
+.valor {
+  margin-bottom: 30px;
+}
+
+.valor h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #0e284d;
+}
+
+.valor p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+/* Estilo del pie de página */
+footer {
+  background-color: #0e284d;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Estilos responsivos */
+@media screen and (max-width: 768px) {
+  header {
+    padding: 15px 0;
+  }
+
+  .logo img {
+    width: 120px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav li {
+    margin: 10px 0;
+  }
+
+  .hero h1 {
+    font-size: 28px;
+  }
+
+  .hero p {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+
+  .btn {
+    padding: 6px 15px;
+    font-size: 14px;
+  }
+
+  .servicios {
+    padding: 30px 0;
+  }
+
+  .servicio h3 {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+
+  .servicio p {
+    font-size: 12px;
+  }
+
+  .mision-vision {
+    padding: 60px 0;
+  }
+
+  .mision h3, .vision h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .mision p, .vision p {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+
+  .valores {
+    padding: 60px 0;
+  }
+
+  .valores h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .valor h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .valor p {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+
+  footer {
+    padding: 15px 0;
+  }
+}
